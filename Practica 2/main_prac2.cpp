@@ -74,7 +74,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	//Iniciales del nombre (contorno P - relleno S - contorno G)
 
 	//P
-	glColor3f(0.192, 0.57, 0.43); //VERDE RARO 2.0
+	glColor3f(0.9016, 0.9016, 0.9803); //blanco rosita
 	glBegin(GL_LINE_LOOP);
 	glVertex3f(1.0f, 1.0f, -1.2f);
 	glVertex3f(3.0f, 1.0f, -1.2f);
@@ -92,7 +92,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glEnd();
 
 	//S
-	glColor3f(0.0, 0.5, 0.4); //VERDE RARO
+	glColor3f(0.678, 0.847, 0.9019); // azulillo
 	glBegin(GL_POLYGON);
 	glVertex3f(9.0f, 1.0f, -1.2f);
 	glVertex3f(9.0f, 3.0f, -1.2f);
@@ -100,6 +100,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glVertex3f(15.0f, 1.0f, -1.2f);
 	glEnd();
 
+	glColor3f(1.0, 0.713, 0.756); //rosa
 	glBegin(GL_POLYGON);
 	glVertex3f(13.0f, 3.0f, -1.2f);
 	glVertex3f(15.0f, 1.0f, -1.2f);
@@ -107,24 +108,25 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glVertex3f(13.0f, 5.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.87, 1.0, 1.0); // azul
 	glBegin(GL_POLYGON);
 	glVertex3f(15.0f, 6.0f, -1.2f);
 	glVertex3f(13.0f, 5.0f, -1.2f);
-	glColor3f(1.0, 0.0, 0.4); //COLOR ROSA FEO
 	glVertex3f(9.0f, 5.0f, -1.2f);
-	glColor3f(0.0, 0.5, 0.4); //VERDE RARO
+	glColor3f(0.87, 1.0, 1.0); // azul
 	glVertex3f(11.0f, 6.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.827, 0.827, 0.827); // gris
 	glBegin(GL_POLYGON);
-	glColor3f(1.0, 0.0, 0.4); //COLOR ROSA FEO
 	glVertex3f(9.0f, 5.0f, -1.2f);
-	glColor3f(0.0, 0.5, 0.4); //VERDE RARO
+	glColor3f(0.827, 0.827, 0.827); // gris
 	glVertex3f(11.0f, 6.0f, -1.2f);
 	glVertex3f(11.0f, 8.0f, -1.2f);
 	glVertex3f(9.0f, 10.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.9411, 0.5019, 0.5019); //rosado
 	glBegin(GL_POLYGON);
 	glVertex3f(11.0f, 8.0f, -1.2f);
 	glVertex3f(9.0f, 10.0f, -1.2f);
@@ -133,7 +135,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glEnd();
 
 	//G 
-	glColor3f(0.192, 0.57, 0.43); //VERDE RARO 2.0
+	glColor3f(0.9016, 0.9016, 0.9803); //blanco rosita
 	glBegin(GL_LINE_LOOP);
 	glVertex3f(24.0f, 10.0f, -1.2f);
 	glVertex3f(17.0f, 10.0f, -1.2f);
@@ -151,30 +153,35 @@ void display ( void )   // Creamos la funcion donde se dibuja
 
 	//E S T R E L L A
 	 //Pentágono
+	glColor3f(0.9411, 0.5019, 0.5019); //rosado
 	glBegin(GL_POLYGON);
 	glVertex3f(12.5f, -7.0f, -1.2f);
 	glVertex3f(10.0f, -12.0f, -1.2f);
 	glVertex3f(15.0f, -12.0f, -1.2f);
 	glEnd();
 
+	glColor3f(1.0, 0.713, 0.756); //rosa
 	glBegin(GL_POLYGON);
 	glVertex3f(12.5f, -7.0f, -1.2f);
 	glVertex3f(10.0f, -12.0f, -1.2f);
 	glVertex3f(9.0f, -8.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.87, 1.0, 1.0); // azul
 	glBegin(GL_POLYGON);
 	glVertex3f(12.5f, -7.0f, -1.2f);
 	glVertex3f(15.0f, -12.0f, -1.2f);
 	glVertex3f(16.0f, -8.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.827, 0.827, 0.827); // gris
 	glBegin(GL_POLYGON);
 	glVertex3f(12.5f, -7.0f, -1.2f);
 	glVertex3f(9.0f, -8.0f, -1.2f);
 	glVertex3f(12.5f, -5.0f, -1.2f);
 	glEnd();
 
+	glColor3f(0.678, 0.847, 0.9019); // azulillo
 	glBegin(GL_POLYGON);
 	glVertex3f(12.5f, -7.0f, -1.2f);
 	glVertex3f(16.0f, -8.0f, -1.2f);
@@ -182,7 +189,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glEnd();
 
 	//picos
-	//glColor3f(1.0, 0.0, 0.4); //COLOR ROSA FEO
+	glColor3f(0.37, 0.619, 0.627); //
 	glBegin(GL_TRIANGLES);
 	glVertex3f(12.5f, -15.0f, -1.2f);
 	glVertex3f(10.0f, -12.0f, -1.2f);
